@@ -228,7 +228,7 @@ ul{
 
 .features_card{
     display: flex;
-    flex-direction:column ;
+    flex-direction: column-reverse;
     max-width: 576px;
     justify-content: center;
     align-items: center;
