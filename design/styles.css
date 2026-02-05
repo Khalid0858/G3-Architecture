@@ -138,6 +138,12 @@ ul{
     margin-top: 24px;
 }
 
+.features_description{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -182,6 +188,14 @@ ul{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 24px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
+.features_description{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 }
