@@ -99,8 +99,44 @@ ul{
     margin: 50px 223px 45px 223px;
 }
 
+.features_card{
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 74px;
+}
 
+.features_image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.team{
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;
+}
 
+.features_title{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: rgba(114, 114, 114, 1);
+}
+
+.our{
+    color: rgba(19, 19, 19, 1);
+}
+.feature{
+   color:  rgba(255, 144, 14, 1);
+}
+
+.feature_descrip{
+    font-size: 1rem;
+    color: rgba(114, 114, 114, 1);
+    margin-top: 24px;
+}
 
 
 
