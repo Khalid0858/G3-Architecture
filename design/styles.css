@@ -168,4 +168,20 @@ ul{
     margin-bottom: 45px;
 }
 
+.features_card{
+    display: flex;
+    flex-direction:column ;
+    max-width: 576px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 74px;
+}
+
+.features_image{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+}
+
 }
