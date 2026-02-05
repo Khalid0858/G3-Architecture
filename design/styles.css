@@ -20,6 +20,24 @@
     border: none;
 
 }
+.btn_bgg{
+    margin-top: 32px;
+    border-radius: 8px;
+    background-color: rgba(255, 144, 14, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 46px 42px;
+    font-size:1.56rem;
+    font-weight: 500;
+    border: none;
+    margin-top: -118px;
+    margin-left: -100px;
+
+}
+
+.experiencee{
+    font-size: 4.06rem;
+    font-weight: 700;
+}
 
 *{
     margin: 0px;
@@ -144,6 +162,40 @@ ul{
     align-items: center;
 }
 
+/* Features for All that We Provide */
+
+.features_model{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 130px;
+    gap: 146px;
+}
+
+.featuree_title{
+    color:  rgba(19, 19, 19, 1);
+    font-size:2.8rem;
+    font-weight: 700;
+    border-left: 5px solid  rgba(255, 144, 14, 1);
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.feature_title{
+    padding: 30px 33px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.feature_heading{
+    color: rgba(19, 19, 19, 1);
+    font-size:1.25rem;
+    font-weight: 600;
+}
+
 
 
 
@@ -198,4 +250,25 @@ ul{
     justify-content: center;
     align-items: center;
 }
+
+.features_model{
+    max-width: 576px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 146px;
+}
+
+.feature_type{
+    margin: 0 45px;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn_bgg{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
 }
